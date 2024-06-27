@@ -1,13 +1,14 @@
 class Category {
-  final int id;
   final String name;
 
-  Category({required this.id, required this.name});
+  Category({required this.name});
 
+//This is a factory sol to create a list of categories as models
   factory Category.fromJson(Map<String, dynamic> json) {
     return Category(
-      id: json['id'],
       name: json['name'],
     );
   }
+
+
 }
