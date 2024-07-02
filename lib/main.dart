@@ -11,7 +11,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     ProductService productService = ProductService();
@@ -20,7 +19,6 @@ class MyApp extends StatelessWidget {
       providers: [
         ChangeNotifierProvider(create: (_) => ProductProvider(productService)),
         ChangeNotifierProvider(create: (_) => CategoryProvider(categoryService)),
-
       ],
       child:  MaterialApp(
         debugShowCheckedModeBanner: false,
