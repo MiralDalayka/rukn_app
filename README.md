@@ -13,6 +13,8 @@ All Products:
 
 ![photo1719945834](https://github.com/MiralDalayka/rukn_app/assets/89144753/4786bd37-7392-425c-91be-4aea29c0843f)
 
-Product's details: \n
-![photo1719945834 (2)](https://github.com/MiralDalayka/rukn_app/assets/89144753/90c074d2-b01e-415c-8f39-b5a061329e07)
+Product's details: 
+![photo1719945834 (3)](https://github.com/MiralDalayka/rukn_app/assets/89144753/ce2441b4-319d-4c3c-ad81-43a69d7486ce)
+![photo1719945834 (2)](https://github.com/MiralDalayka/rukn_app/assets/89144753/dbce0596-3234-4e20-b2d5-b46098df8f2c)
+
 
