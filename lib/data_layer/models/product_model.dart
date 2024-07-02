@@ -1,28 +1,42 @@
+
+
 class Product {
-  int? id;
-  String? title;
-  String? price;
-  String? category;
-  String? description;
-  String? image;
+  int id;
+  String title;
+  double price;
+  String description;
+  String category;
+  String image;
+  Rating rating;
 
   Product(
       {required this.id,
       required this.title,
       required this.price,
-      required this.category,
       required this.description,
-      required this.image});
-
-  //TODO make random id
+      required this.category,
+      required this.image,
+      required this.rating});
 
   factory Product.fromJson(Map<String, dynamic> json) {
     return Product(
         id: json['id'],
         title: json['title'],
-        price: json['price'],
-        category: json['category'],
+        price: json['price'].toDouble(),
         description: json['description'],
-        image: json['image']);
+        category: json['category'],
+        image: json['image'],
+        rating: Rating.fromJson(json['rating']));
+  }
+}
+
+class Rating {
+  double rate;
+  int count;
+
+  Rating({required this.rate, required this.count});
+
+  factory Rating.fromJson(Map<String, dynamic> json) {
+    return Rating(rate: json['rate'].toDouble(), count: json['count']);
   }
 }

@@ -4,9 +4,9 @@ class Category {
   Category({required this.name});
 
 //This is a factory sol to create a list of categories as models
-  factory Category.fromJson(Map<String, dynamic> json) {
+  factory Category.fromJson(String name) {
     return Category(
-      name: json['name'],
+      name: name,
     );
   }
 
