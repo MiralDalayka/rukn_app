@@ -13,6 +13,6 @@ All Products:
 
 ![photo1719945834](https://github.com/MiralDalayka/rukn_app/assets/89144753/4786bd37-7392-425c-91be-4aea29c0843f)
 
-Product's detailes:
+Product's details: \n
 ![photo1719945834 (2)](https://github.com/MiralDalayka/rukn_app/assets/89144753/90c074d2-b01e-415c-8f39-b5a061329e07)
 
